@@ -2,5 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
-.wrapper {width: 80%;}
-section {width: calc(100% - 60px);}
+.wrapper {
+  width: 80%;
+}
+section {
+  width: calc(100% - 200px);
+}
+footer { 
+  width:180px;  
+  left:15%;
+  margin-left:0px;
+}
