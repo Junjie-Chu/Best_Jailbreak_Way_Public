@@ -47,15 +47,16 @@ footer {
     left: 60%;  /* 覆盖.fork3的左边距 */
   }
   #logo {
-    position:absolute;
-    background-size: contain; /* 添加这一行 */
-    background-repeat: no-repeat; /* 确保背景图像不重复 */
-    height: 36px;
+    position: absolute;
+    background-image: url('../images/TrustAIRLab.png'); /* 背景图像 */
+    background-size: contain; /* 使背景图像完整显示且适应元素 */
+    background-repeat: no-repeat; /* 不重复背景图像 */
+    background-position: center; /* 将背景图像居中 */
+    height: 100px;
     width: 200px;
-    right:7px;
-    top:7px;
+    right: 7px;
+    top: 7px;
     display: block;
-    background: url(../images/TrustAIRLab.png);
   }
 }
 table {
