@@ -6,16 +6,16 @@
   width: 61.8%;
 }
 section {
-  width: calc(100%-100px);
-}
-footer { 
-  width:230px;  
-  left:0%;
-  margin-left:460px; /* 正值朝右 */
+  width: calc(100%-60px);
 }
 nav {
   width:230px; /* 设置 nav 的宽度 */
   left:0%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
-  margin-left: -0px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
+  margin-left:115px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
+}
+footer { 
+  width:230px;  
+  left:0%;
+  margin-left:115px; /* 正值朝右 */
 }
 
