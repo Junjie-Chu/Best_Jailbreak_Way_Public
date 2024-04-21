@@ -6,7 +6,7 @@
   width: 61.8%;
 }
 section {
-  width: calc(100%-60px);
+  width: calc(100% - 60px);
 }
 nav {
   width:230px; /* 设置 nav 的宽度 */
@@ -18,4 +18,6 @@ footer {
   left:0%;
   margin-left:115px; /* 正值朝右 */
 }
-
+#banner {
+  background: url(../images/body-background.png) #eae6d1;
+}
