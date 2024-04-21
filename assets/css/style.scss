@@ -39,14 +39,21 @@ footer {
     line-height: 14px;
     font-size: 14px;
     background-color: #FFE788;
-  }
-  
+  }  
   .fork2 {
     left: 50%;  /* 覆盖.fork2的左边距 */
   }
-  
   .fork3 {
     left: 60%;  /* 覆盖.fork3的左边距 */
+  }
+  #logo {
+    position:absolute;
+    height: 36px;
+    width: 72px;
+    right:7px;
+    top:7px;
+    display: block;
+    background: url(../images/TrustAIRLab.png);
   }
 }
 table {
