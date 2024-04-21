@@ -29,13 +29,10 @@ footer {
   margin-left:115px; /* 正值朝右 */
 }
 #banner {
-  background: #e0e0e0;
-}
-#banner {
   display: flex;
-  justify-content: flex-start; /* 沿主轴（水平方向）对齐方式 */
-  align-items: center; /* 在交叉轴（垂直方向）上如何对齐 */
-  gap: 10px; /* 控制项目之间的间隙 */
+  align-items: center; /* 如有需要，调整垂直对齐 */
+  justify-content: start; /* 从左侧开始排列子项 */
+  gap: 10px; /* 在项目之间创建空间 */
 }
 table {
   width:75%;
