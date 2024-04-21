@@ -9,9 +9,9 @@ section {
   width: calc(100% - 60px);
 }
 footer { 
-  width:460px;  
+  width:230px;  
   left:0%;
-  margin-left:230px;
+  margin-left:460px; /* 正值朝右 */
 }
 nav {
   width:230px; /* 设置 nav 的宽度 */
