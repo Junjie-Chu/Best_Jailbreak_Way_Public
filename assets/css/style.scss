@@ -29,14 +29,36 @@ footer {
   margin-left:115px; /* 正值朝右 */
 }
 #banner {
-  .fork {
-    position: static; // 默认定位方式
-    left: auto; // 清除left值
-    margin-left: auto; // 清除特定的margin-left值
+  .fork1 {
+    position:fixed;
+    left:30%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
   }
-  display: flex;
-  justify-content: start; /* 从左侧开始排列子项 */
-  gap: 10px; /* 在项目之间创建空间 */
+  .fork2 {
+    position:fixed;
+    left:50%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
+  .fork3 {
+    position:fixed;
+    left:70%;
+    margin-left:-325px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
 }
 table {
   width:75%;
