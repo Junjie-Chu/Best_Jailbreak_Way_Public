@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .wrapper {
-  width: 61.8%;
+  width: 62%;
 }
 section {
   width: calc(100% - 60px);
@@ -19,5 +19,8 @@ footer {
   margin-left:115px; /* 正值朝右 */
 }
 #banner {
-  background: url(../images/body-background.png) #eae6d1;
+  background: url(../images/body-background.png) #d3d3d3;
+}
+table {
+  width:62%;
 }
