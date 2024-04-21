@@ -10,12 +10,12 @@ section {
 }
 footer { 
   width:230px;  
-  left:20%;
-  margin-left:-0px;
+  left:0%;
+  margin-left:-230px;
 }
 nav {
-  width: 230px; /* 设置 nav 的宽度 */
-  left: 15%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
-  margin-left: -0px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
+  width:230px; /* 设置 nav 的宽度 */
+  left:0%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
+  margin-left: -230px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
 }
 
