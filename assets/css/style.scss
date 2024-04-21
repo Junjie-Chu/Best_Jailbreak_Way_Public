@@ -29,35 +29,24 @@ footer {
   margin-left:115px; /* 正值朝右 */
 }
 #banner {
-  .fork1 {
-    position:fixed;
-    left:30%;
-    margin-left:-325px;
+  .fork1, .fork2, .fork3 {
+    position: fixed;
+    width: 150px; /* 或任何适合的宽度 */
+    left: 40%; /* 为.fork1特定 */
+    margin-left: -325px;
     padding: 10px 12px;
     margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
+    line-height: 14px;
+    font-size: 14px;
     background-color: #FFE788;
   }
+  
   .fork2 {
-    position:fixed;
-    left:50%;
-    margin-left:-325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    background-color: #FFE788;
+    left: 50%;  /* 覆盖.fork2的左边距 */
   }
+  
   .fork3 {
-    position:fixed;
-    left:70%;
-    margin-left:-325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    background-color: #FFE788;
+    left: 60%;  /* 覆盖.fork3的左边距 */
   }
 }
 table {
