@@ -28,16 +28,16 @@ footer {
   left:0%;
   margin-left:115px; /* 正值朝右 */
 }
-.fork {
-  position: static; // 默认定位方式
-  left: auto; // 清除left值
-  margin-left: auto; // 清除特定的margin-left值
-}
 #banner {
   display: flex;
   align-items: center; /* 如有需要，调整垂直对齐 */
   justify-content: start; /* 从左侧开始排列子项 */
   gap: 10px; /* 在项目之间创建空间 */
+  .fork {
+    position: static; // 默认定位方式
+    left: auto; // 清除left值
+    margin-left: auto; // 清除特定的margin-left值
+  }
 }
 table {
   width:75%;
