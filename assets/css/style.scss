@@ -1,0 +1,6 @@
+---
+---
+
+.wrapper {width: 80%;}
+section {width: calc(100% - 60px);}
+@import "{{ site.theme }}";
