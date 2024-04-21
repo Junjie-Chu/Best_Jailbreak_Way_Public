@@ -9,16 +9,13 @@ section {
   width: calc(100% - 60px);
 }
 footer { 
-  width:300px;  
+  width:230px;  
   left:0%;
   margin-left:-0px;
 }
 nav {
   width: 230px; /* 设置 nav 的宽度 */
-  position: fixed; /* 固定定位，使 nav 在滚动时保持在同一位置 */
-  top: 220px; /* 距离视窗顶部的距离 */
   left: 0%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
   margin-left: -230px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
-  text-align: right; /* 文本对齐方式 */
 }
 
