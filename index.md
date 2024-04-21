@@ -23,13 +23,12 @@ We hope our study can provide insights for future research on jailbreak attacks 
 
 | Jailbreak Taxonomy |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |:------------------:|:-----------------------:|:-------------------------:|:------------------------------:|
-|     Human-Based    |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |     Human-Based    |           AIM           |             ✗             |                ✓               |
 |     Human-Based    |       Devmoderanti      |             ✗             |                ✓               |
-|  Obfuscation-Based |        Devmodev2        |             ✗             |                ✓               |
+|     Human-Based    |        Devmodev2        |             ✗             |                ✓               |
 |  Obfuscation-Based |          Base64         |             ✗             |                ✓               |
 |  Obfuscation-Based |       Combination       |             ✗             |                ✓               |
-| Optimization-Based |           Zulu          |             ✗             |                ✓               |
+|  Obfuscation-Based |           Zulu          |             ✗             |                ✓               |
 | Optimization-Based |         AutoDAN         |             ✓             |                ✓               |
 | Optimization-Based |           GCG           |             ✓             |                ✓               |
 | Optimization-Based |           COLD          |             ✓             |                ✓               |
