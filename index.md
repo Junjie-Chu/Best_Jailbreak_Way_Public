@@ -2,6 +2,8 @@
 title: "Comprehensive Assessment of Jailbreak Attacks Against LLMs"
 ---
 
+![Overview_JB_thick.pdf](https://github.com/Junjie-Chu/Best_Jailbreak_Way_Public/files/15055603/Overview_JB_thick.pdf)
+
 ## Abstract
 *Jailbreak attacks* aim to bypass the safeguards of LLMs.
 While researchers have studied different jailbreak attacks in depth, they have done so in isolation - either with unaligned experiment settings or comparing a limited range of methods.
