@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 .wrapper {
-  width: 62%;
+  width: 55%;
 }
 section {
   width: calc(100% - 60px);
@@ -48,6 +48,8 @@ footer {
   }
   #logo {
     position:absolute;
+    background-size: contain; /* 添加这一行 */
+    background-repeat: no-repeat; /* 确保背景图像不重复 */
     height: 36px;
     width: 72px;
     right:7px;
