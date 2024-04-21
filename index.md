@@ -20,6 +20,7 @@ Additionally, we test jailbreak attacks under four advanced external defenses an
 We hope our study can provide insights for future research on jailbreak attacks and serve as a benchmark tool for researchers and practitioners to evaluate them.
 
 ## Jailbreak Taxonomy
+
 | Jailbreak Taxonomy |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |:------------------:|:-----------------------:|:-------------------------:|:------------------------------:|
 |     Human-Based    |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
