@@ -10,6 +10,7 @@ Welcome to the leaderboard page.
 <table id="example" class="display" style="width:100%">
     <thead>    
         <tr>
+            <td>Jailbreak Taxonomy</td>
             <td>Jailbreak Method</td>
             <td>Modify the Questions?</td>
             <td>Access</td>
@@ -24,6 +25,7 @@ Welcome to the leaderboard page.
     </thead>
     <tbody>
         <tr>
+            <td>Human-Based</td>
             <td>AIM</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -36,6 +38,7 @@ Welcome to the leaderboard page.
             <td>0.76</td>
         </tr>
         <tr>
+            <td>Human-Based</td>
             <td>Devmoderanti</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -48,6 +51,7 @@ Welcome to the leaderboard page.
             <td>0.54</td>
         </tr>
         <tr>
+            <td>Human-Based</td>
             <td>Devmode v2</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -60,6 +64,7 @@ Welcome to the leaderboard page.
             <td>0.55</td>
         </tr>
         <tr>
+            <td>Obfuscation-Based</td>
             <td>Base64</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -72,6 +77,7 @@ Welcome to the leaderboard page.
             <td>0.15</td>
         </tr>
         <tr>
+            <td>Obfuscation-Based</td>
             <td>Combination</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -84,6 +90,7 @@ Welcome to the leaderboard page.
             <td>0.23</td>
         </tr>
         <tr>
+            <td>Obfuscation-Based</td>
             <td>Zulu</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -96,6 +103,7 @@ Welcome to the leaderboard page.
             <td>0.31</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>AutoDAN</td>
             <td>✓</td>
             <td>White-Box</td>
@@ -108,6 +116,7 @@ Welcome to the leaderboard page.
             <td>0.82</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>GCG</td>
             <td>✓</td>
             <td>White-Box</td>
@@ -120,6 +129,7 @@ Welcome to the leaderboard page.
             <td>0.62</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>COLD</td>
             <td>✓</td>
             <td>White-Box</td>
@@ -132,6 +142,7 @@ Welcome to the leaderboard page.
             <td>0.46</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>GPTfuzz</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -144,6 +155,7 @@ Welcome to the leaderboard page.
             <td>0.64</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>PAIR</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -156,6 +168,7 @@ Welcome to the leaderboard page.
             <td>0.66</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>TAP</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -168,6 +181,7 @@ Welcome to the leaderboard page.
             <td>0.7</td>
         </tr>
         <tr>
+            <td>Optimization-Based</td>
             <td>Masterkey</td>
             <td>✓</td>
             <td>Black-Box</td>
@@ -180,6 +194,7 @@ Welcome to the leaderboard page.
             <td>0.67</td>
         </tr>
         <tr>
+            <td>Parameter-Based</td>
             <td>Generation Exploitation</td>
             <td>✗</td>
             <td>White-Box</td>
