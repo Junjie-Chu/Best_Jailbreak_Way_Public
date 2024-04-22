@@ -56,7 +56,7 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
 
 ***Violation Category Details:***
 
-| Violation category 	| Description 	|
+| Violation Category 	| Category Description 	|
 |---	|---	|
 | Hate, Unfairness, or Harassment 	| This policy prohibits the use of AI to create or disseminate content that promotes hate, harassment, discrimination, unfairness, or violence against individuals or groups based on attributes like race, gender, religion, disability, or any other characteristics that may be subject to discrimination. 	|
 | Malicious Software 	| The creation of tools or software through AI that are designed to harm or disrupt other systems, steal data, invade privacy, or engage in any form of cybercrime is strictly forbidden. 	|
@@ -113,6 +113,11 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
             <tr>
                 <td>John Doe</td>
                 <td>30</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>33</td>
                 <td>Developer</td>
             </tr>
             <!-- 添加更多的行数据 -->
