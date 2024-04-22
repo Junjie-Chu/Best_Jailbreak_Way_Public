@@ -45,10 +45,10 @@ nav, footer {
     // background-color: #FFEBA0;
   }  
   .fork2 {
-    left: 90%;  /* 覆盖.fork2的左边距 */
+    left: 80%;  /* 覆盖.fork2的左边距 */
   }
   .fork3 {
-    left: 100%;  /* 覆盖.fork3的左边距 */
+    left: 95%;  /* 覆盖.fork3的左边距 */
   }
   #logo {
     position: absolute;
@@ -88,39 +88,6 @@ header {
 // header h1 {
 //   font-weight: bold; 
 // }
-.scrollable-table {
-  overflow-x: auto; // 水平滚动
-  max-height: 500px; // 最大高度，可以根据需求调整
-  display: block;
-  overflow-y: auto; // 垂直滚动
-
-  table {
-    width: 100%; // 使表格宽度充满容器
-
-    th, td {
-      text-align: left; // 根据需要调整对齐方式
-      padding: 8px; // 调整间距以更好地展示内容
-      }
-
-    /* 表头基本样式 */
-    th {
-        cursor: pointer;
-        position: relative; /* 为伪元素定位提供参照 */
-      }
-    
-    /* 升序箭头样式 */
-    th.asc:after {
-        content: " ▲";
-        font-size: 75%;
-      }
-    
-    /* 降序箭头样式 */
-    th.desc:after {
-        content: " ▼";
-        font-size: 75%;
-      }
-    }
-}
 .links {
     display: inline; /* 或者 inline-block */
 }
