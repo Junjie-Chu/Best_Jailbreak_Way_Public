@@ -2,18 +2,18 @@
 ---
 
 @import "{{ site.theme }}";
-.wrapper {
-  width: 55%;
-}
-section {
-  width: calc(100% - 60px);
-}
-nav {
-  position: fixed;
-  width:230px; /* 设置 nav 的宽度 */
-  left:0%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
-  margin-left:155px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
-}
+// .wrapper {
+//   width: 55%;
+// }
+// section {
+//   width: calc(100% - 60px);
+// }
+// nav {
+//   position: fixed;
+//   width:230px; /* 设置 nav 的宽度 */
+//   left:0%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
+//   margin-left:155px; /* 左边的外边距，用于调整定位的具体位置（结合left:50%使用可以达到居中的效果，取决于具体的数值） */
+// }
 nav {
   ul {
     li {
@@ -24,15 +24,15 @@ nav {
     }
   }
 }
-footer {
-  position: fixed;
-  width:230px;  
-  left:0%;
-  margin-left:155px; /* 正值朝右 */
-}
-nav, footer {
-  overflow: auto; /* 或hidden，根据需要 */
-}
+// footer {
+//   position: fixed;
+//   width:230px;  
+//   left:0%;
+//   margin-left:155px; /* 正值朝右 */
+// }
+// nav, footer {
+//   overflow: auto; /* 或hidden，根据需要 */
+// }
 #banner {
   .fork1, .fork2, .fork3 {
     position: fixed;
