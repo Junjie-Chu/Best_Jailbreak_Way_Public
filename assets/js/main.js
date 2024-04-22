@@ -1,29 +1,50 @@
 function sortTable(column) {
-  var table, rows, switching, i, x, y, shouldSwitch;
-  table = document.getElementById("sortable-table");
-  switching = true;
-  // 循环直到没有switching发生
-  while (switching) {
-    switching = false;
-    rows = table.rows;
-    // 遍历表格的所有行（除了标题行）
-    for (i = 1; i < (rows.length - 1); i++) {
-      shouldSwitch = false;
-      // 获取待比较的两个元素
-      x = rows[i].getElementsByTagName("TD")[column];
-      y = rows[i + 1].getElementsByTagName("TD")[column];
-      if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-        // 若发现一对需要交换的元素，标记为shouldSwitch并停止循环
-        shouldSwitch = true;
-        break;
-      }
+    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    table = document.getElementById("sortable-table");
+    switching = true;
+    // 设定排序方向为升序
+    dir = "asc"; 
+    // 循环直到没有switching发生
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[column];
+            y = rows[i + 1].getElementsByTagName("TD")[column];
+            // 检查是否需要根据升序或降序排序
+            if (dir == "asc" && x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                shouldSwitch= true;
+                break;
+            } else if (dir == "desc" && x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                shouldSwitch= true;
+                break;
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount ++;      
+        } else {
+            // 如果在第一次循环时没有需要移动的行，则将方向切换为降序并再次执行循环
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
     }
-    if (shouldSwitch) {
-      // 若有标记的对，执行交换并将switching标记为true
-      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-      switching = true;
+    // 更新箭头的方向
+    updateArrow(table, column, dir);
+}
+
+function updateArrow(table, column, dir) {
+    // 首先移除所有列头的asc和desc类
+    var ths = table.getElementsByTagName("TH");
+    for (var i = 0; i < ths.length; i++) {
+        ths[i].classList.remove("asc", "desc");
     }
-  }
+    // 给当前列头添加正确的类
+    ths[column].classList.add(dir);
 }
 
 var sectionHeight = function() {
