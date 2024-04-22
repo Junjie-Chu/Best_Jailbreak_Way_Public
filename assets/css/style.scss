@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 .wrapper {
-  width:650px;
+  width:750px;
   margin:0 auto;
   position:relative;
 }
-// section {
-//   width: calc(100% - 60px);
-// }
+section {
+  width:690px;
+}
 // nav {
 //   position: fixed;
 //   width:230px; /* 设置 nav 的宽度 */
