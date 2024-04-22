@@ -1,11 +1,14 @@
-$(document).ready(function() {
-    $('#example').DataTable({
-        // 在这里加入DataTable的配置选项
-        "paging":   true, // 开启表格的分页功能
-        "ordering": true, // 启用表格的排序功能
-        "info":     true  // 显示底部信息
-    });
-});
+var sectionHeight = function() {
+  var total    = $(window).height(),
+      $section = $('section').css('height','auto');
+
+  if ($section.outerHeight(true) < total) {
+    var margin = $section.outerHeight(true) - $section.height();
+    $section.height(total - margin - 20);
+  } else {
+    $section.css('height','auto');
+  }
+}
 
 $(window).resize(sectionHeight);
 
@@ -27,4 +30,13 @@ $(function() {
   sectionHeight();
 
   $('img').on('load', sectionHeight);
+});
+
+$(document).ready(function() {
+    $('#example').DataTable({
+        // 在这里加入DataTable的配置选项
+        "paging":   true, // 开启表格的分页功能
+        "ordering": true, // 启用表格的排序功能
+        "info":     true  // 显示底部信息
+    });
 });
