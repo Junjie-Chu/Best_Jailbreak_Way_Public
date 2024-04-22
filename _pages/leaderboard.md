@@ -1,5 +1,6 @@
 ---
 title: "Leaderboard"
+layout: page
 ---
 
 # Leaderboard
