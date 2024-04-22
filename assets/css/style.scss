@@ -35,14 +35,14 @@ nav, footer {
   right: 37.5%;
   .fork1, .fork2, .fork3 {
     position: absolute;
-    width: 135px; /* 或任何适合的宽度 */
+    width: 100px; /* 或任何适合的宽度 */
     left: 60%; /* 为.fork1特定 */
     margin-left: -325px;
     padding: 9px 10px;
     margin-top: 6px;
     line-height: 14px;
     font-size: 14px;
-    // background-color: #FFEBA0;
+    background-color: #a0c6ff;
   }  
   .fork2 {
     left: 80%;  /* 覆盖.fork2的左边距 */
