@@ -54,7 +54,8 @@ We first collect the usage policies from five major LLM-related service provider
 Many policies tend to provide a general description by synthesizing many specific categories within an overarching category.
 Unlike the general ones, we summarize our unified policy by *explicit coverage* to find a clear common feature within the same category.
 
-Violation Category Details:
+***Violation Category Details:***
+
 | Violation category              | Description                                                                                                                                                                                                                                                                                                 |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hate, Unfairness, or Harassment | This policy prohibits the use of AI to create or disseminate content that promotes hate, harassment, discrimination, unfairness, or violence against individuals or groups based on attributes like race, gender, religion, disability, or any other characteristics that may be subject to discrimination. |
@@ -75,7 +76,8 @@ Violation Category Details:
 | Illegal Activities              | The use of AI to engage in, support, or promote illegal activities is strictly prohibited.                                                                                                                                                                                                                  |
 | Crimes Involving Children       | Any use of AI related to crimes involving children, including the creation, distribution, or promotion of child exploitation material, is strictly forbidden and subject to legal action.                                                                                                                   |                                                                                                               |
 
-Policy Coverage:
+***Policy Coverage:***
+
 |        Violation category       | OpenAI | Microsoft | Google | Amazon | Meta |
 |:-------------------------------:|:------:|:---------:|:------:|:------:|:----:|
 | Hate, Unfairness, or Harassment |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
