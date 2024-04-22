@@ -1,63 +1,11 @@
-function sortTable(column) {
-    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.getElementById("sortable-table");
-    switching = true;
-    // 设定排序方向为升序
-    dir = "asc"; 
-    // 循环直到没有switching发生
-    while (switching) {
-        switching = false;
-        rows = table.rows;
-        for (i = 1; i < (rows.length - 1); i++) {
-            shouldSwitch = false;
-            x = rows[i].getElementsByTagName("TD")[column];
-            y = rows[i + 1].getElementsByTagName("TD")[column];
-            // 检查是否需要根据升序或降序排序
-            if (dir == "asc" && x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                shouldSwitch= true;
-                break;
-            } else if (dir == "desc" && x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                shouldSwitch= true;
-                break;
-            }
-        }
-        if (shouldSwitch) {
-            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-            switching = true;
-            switchcount ++;      
-        } else {
-            // 如果在第一次循环时没有需要移动的行，则将方向切换为降序并再次执行循环
-            if (switchcount == 0 && dir == "asc") {
-                dir = "desc";
-                switching = true;
-            }
-        }
-    }
-    // 更新箭头的方向
-    updateArrow(table, column, dir);
-}
-
-function updateArrow(table, column, dir) {
-    // 首先移除所有列头的asc和desc类
-    var ths = table.getElementsByTagName("TH");
-    for (var i = 0; i < ths.length; i++) {
-        ths[i].classList.remove("asc", "desc");
-    }
-    // 给当前列头添加正确的类
-    ths[column].classList.add(dir);
-}
-
-var sectionHeight = function() {
-  var total    = $(window).height(),
-      $section = $('section').css('height','auto');
-
-  if ($section.outerHeight(true) < total) {
-    var margin = $section.outerHeight(true) - $section.height();
-    $section.height(total - margin - 20);
-  } else {
-    $section.css('height','auto');
-  }
-}
+$(document).ready(function() {
+    $('#example').DataTable({
+        // 在这里加入DataTable的配置选项
+        "paging":   true, // 开启表格的分页功能
+        "ordering": true, // 启用表格的排序功能
+        "info":     true  // 显示底部信息
+    });
+});
 
 $(window).resize(sectionHeight);
 
