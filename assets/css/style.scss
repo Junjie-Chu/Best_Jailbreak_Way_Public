@@ -30,6 +30,9 @@ footer {
   left:0%;
   margin-left:155px; /* 正值朝右 */
 }
+nav, footer {
+  overflow: auto; /* 或hidden，根据需要 */
+}
 #banner {
   .fork1, .fork2, .fork3 {
     position: fixed;
