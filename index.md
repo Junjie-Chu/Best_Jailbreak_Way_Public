@@ -5,7 +5,7 @@ title: "Comprehensive Assessment of Jailbreak Attacks Against LLMs"
 ## Overview
 
 <div align="center">
-  <img src="https://github.com/Junjie-Chu/Best_Jailbreak_Way_Public/assets/65893273/42ea7acf-1aa4-46b3-9aeb-de9b614f8b4b" alt="Overview_JB_thick" width="53%">
+  <img src="https://github.com/Junjie-Chu/Best_Jailbreak_Way_Public/assets/65893273/42ea7acf-1aa4-46b3-9aeb-de9b614f8b4b" alt="Overview_JB_thick" width="55%">
 </div>
 
 ## Abstract
@@ -46,7 +46,7 @@ We hope our study can provide insights for future research on jailbreak attacks 
 
 ## Unified Usage Policy
 
-## Leaderboard (Direct Attack Setting)
+## <font color=FF0000> Leaderboard </font>
 
 ## Ablation Study
 ### Time
