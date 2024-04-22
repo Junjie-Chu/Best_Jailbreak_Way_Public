@@ -1,6 +1,5 @@
 ---
-title: Leaderboard
-layout: default
+title: "Leaderboard"
 ---
 
 # Leaderboard
