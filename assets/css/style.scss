@@ -91,4 +91,6 @@ header {
 .links {
     display: inline; /* 或者 inline-block */
 }
-
+.links span, .links a {
+    display: inline; /* 让span和a元素也行内显示 */
+}
