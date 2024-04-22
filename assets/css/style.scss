@@ -2,9 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
-// .wrapper {
-//   width: 55%;
-// }
+.wrapper {
+  width:62%;
+  margin:0 auto;
+  position:relative;
+}
 // section {
 //   width: calc(100% - 60px);
 // }
