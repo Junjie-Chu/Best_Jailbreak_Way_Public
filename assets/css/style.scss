@@ -100,11 +100,25 @@ header {
     th, td {
       text-align: left; // 根据需要调整对齐方式
       padding: 8px; // 调整间距以更好地展示内容
-    }
+      }
 
+    /* 表头基本样式 */
     th {
-      cursor: pointer; // 指明可以点击列头进行排序
+        cursor: pointer;
+        position: relative; /* 为伪元素定位提供参照 */
+      }
+    
+    /* 升序箭头样式 */
+    th.asc:after {
+        content: " ▲";
+        font-size: 75%;
+      }
+    
+    /* 降序箭头样式 */
+    th.desc:after {
+        content: " ▼";
+        font-size: 75%;
+      }
     }
-  }
 }
 
