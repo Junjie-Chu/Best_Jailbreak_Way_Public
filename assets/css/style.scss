@@ -3,12 +3,12 @@
 
 @import "{{ site.theme }}";
 .wrapper {
-  width:800px;
+  width:850px;
   margin:0 auto;
   position:relative;
 }
 section {
-  width:740px;
+  width:790px;
 }
 nav {
   left:50%; /* 左边界距离视窗左边的百分比，结合margin-left使用来进行居中或其它定位效果 */
@@ -35,19 +35,19 @@ nav, footer {
   .fork1, .fork2, .fork3 {
     position: absolute;
     width: 135px; /* 或任何适合的宽度 */
-    left: 30%; /* 为.fork1特定 */
+    left: 40%; /* 为.fork1特定 */
     margin-left: -325px;
-    padding: 10px 12px;
+    padding: 9px 10px;
     margin-top: 6px;
     line-height: 14px;
     font-size: 14px;
     background-color: #FFEBA0;
   }  
   .fork2 {
-    left: 45%;  /* 覆盖.fork2的左边距 */
+    left: 60%;  /* 覆盖.fork2的左边距 */
   }
   .fork3 {
-    left: 60%;  /* 覆盖.fork3的左边距 */
+    left: 80%;  /* 覆盖.fork3的左边距 */
   }
   #logo {
     position: absolute;
