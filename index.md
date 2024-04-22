@@ -104,7 +104,7 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
     <table id="sortable-table">
         <thead>
             <tr>
-                <th onclick="sortTable(0)">名称</th>
+                <th onclick="sortTable(0)">名称 ▲</th>
                 <th onclick="sortTable(1)">年龄</th>
                 <th onclick="sortTable(2)">职业</th>
             </tr>
