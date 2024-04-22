@@ -88,3 +88,23 @@ header {
 // header h1 {
 //   font-weight: bold; 
 // }
+.scrollable-table {
+  overflow-x: auto; // 水平滚动
+  max-height: 500px; // 最大高度，可以根据需求调整
+  display: block;
+  overflow-y: auto; // 垂直滚动
+
+  table {
+    width: 100%; // 使表格宽度充满容器
+
+    th, td {
+      text-align: left; // 根据需要调整对齐方式
+      padding: 8px; // 调整间距以更好地展示内容
+    }
+
+    th {
+      cursor: pointer; // 指明可以点击列头进行排序
+    }
+  }
+}
+
