@@ -78,13 +78,13 @@ table {
     display: none;
   }
 }
-header {
-  background-image: linear-gradient(to bottom, #3769a4 0%, lightblue 100%);
-}
 // header {
-//   background: url(../images/background.png);
-//   background: url(../images/background.png) #3769a4; /* same as trustairlab */
+//   background-image: linear-gradient(to bottom, #3769a4 0%, lightblue 100%);
 // }
+header {
+  // background: url(../images/background.png);
+  background: url(../images/background.png) #3769a4; /* same as trustairlab */
+}
 // header h1 {
 //   font-weight: bold; 
 // }
