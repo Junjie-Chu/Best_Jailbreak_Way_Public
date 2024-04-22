@@ -37,6 +37,7 @@ $(document).ready(function() {
         // 在这里加入DataTable的配置选项
         "paging":   true, // 开启表格的分页功能
         "ordering": true, // 启用表格的排序功能
-        "info":     true  // 显示底部信息
+        "info":     true,  // 显示底部信息
+        "scrollX": true, // 启用水平滚动
     });
 });
