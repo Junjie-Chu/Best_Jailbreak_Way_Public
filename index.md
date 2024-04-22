@@ -2,12 +2,14 @@
 title: "Comprehensive Assessment of Jailbreak Attacks Against LLMs"
 ---
 
+* * *
 # Overview
 
 <div align="center">
   <img src="https://github.com/Junjie-Chu/Best_Jailbreak_Way_Public/assets/65893273/42ea7acf-1aa4-46b3-9aeb-de9b614f8b4b" alt="Overview_JB_thick" width="58%">
 </div>
 
+* * *
 # Abstract
 *Jailbreak attacks* aim to bypass the safeguards of LLMs.
 While researchers have studied different jailbreak attacks in depth, they have done so in isolation - either with unaligned experiment settings or comparing a limited range of methods.
@@ -25,13 +27,13 @@ Results of our longitudinal test on continuously updated LLMs show good attack s
 Additionally, we test jailbreak attacks under four advanced external defenses and find none of the defenses could mitigate the jailbreak attacks entirely.
 We hope our study can provide insights for future research on jailbreak attacks and serve as a benchmark tool for researchers and practitioners to evaluate them.
 
+* * *
 # Jailbreak Taxonomy
 
 We classify the methods based on the following two criteria:
 - We consider whether the original forbidden question is modified to bypass the target LLM's alignment mechanisms in the method.
 - If the original question is modified, we then consider how these modified prompts are generated in the method, such as through translation or adding prefixes and suffixes.
 
-* * *
 | Jailbreak Taxonomy |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |:------------------:|:-----------------------:|:-------------------------:|:------------------------------:|
 |     Human-Based    |           AIM           |             ✗             |                ✓               |
@@ -49,13 +51,13 @@ We classify the methods based on the following two criteria:
 | Optimization-Based |        Masterkey        |             ✗             |                ✓               |
 |   Parameter-Based  | Generation Exploitation |             ✓             |                ✗               |
 
+* * *
 # Unified Usage Policy
 
 We first collect the usage policies from five major LLM-related service providers (Google, OpenAI, Meta, Amazon, and Microsoft).
 Many policies tend to provide a general description by synthesizing many specific categories within an overarching category.
 Unlike the general ones, we summarize our unified policy by *explicit coverage* to find a clear common feature within the same category.
 
-* * *
 | Violation category              | Description                                                                                                                                                                                                                                                                                                 |
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Hate, Unfairness, or Harassment | This policy prohibits the use of AI to create or disseminate content that promotes hate, harassment, discrimination, unfairness, or violence against individuals or groups based on attributes like race, gender, religion, disability, or any other characteristics that may be subject to discrimination. |
@@ -75,7 +77,7 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
 | Third-party Rights Violation    | AI should not be used in a way that infringes on intellectual property rights, copyright, trademark, or any other legal rights of others. This includes creating content that copies or mimics the work of others without permission.                                                                       |
 | Illegal Activities              | The use of AI to engage in, support, or promote illegal activities is strictly prohibited.                                                                                                                                                                                                                  |
 | Crimes Involving Children       | Any use of AI related to crimes involving children, including the creation, distribution, or promotion of child exploitation material, is strictly forbidden and subject to legal action.                                                                                                                   |
-* * *
+
 |        Violation category       | OpenAI | Microsoft | Google | Amazon | Meta |
 |:-------------------------------:|:------:|:---------:|:------:|:------:|:----:|
 | Hate, Unfairness, or Harassment |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
@@ -96,10 +98,12 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
 |        Illegal Activities       |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
 |    Crimes involving children    |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
 
+* * *
 # Leaderboard
 
 here
 
+* * *
 # Ablation Study
 
 here
@@ -109,6 +113,7 @@ here
 ## Transferability
 ## Longitudinal Test
 
+* * *
 # Defenses
 
 here
