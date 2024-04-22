@@ -1,5 +1,6 @@
 ---
 title: "Comprehensive Assessment of Jailbreak Attacks Against LLMs"
+layout: default
 ---
 
 # Overview
