@@ -2,13 +2,13 @@
 title: "Comprehensive Assessment of Jailbreak Attacks Against LLMs"
 ---
 
-## Overview
+# Overview
 
 <div align="center">
   <img src="https://github.com/Junjie-Chu/Best_Jailbreak_Way_Public/assets/65893273/42ea7acf-1aa4-46b3-9aeb-de9b614f8b4b" alt="Overview_JB_thick" width="55%">
 </div>
 
-## Abstract
+# Abstract
 *Jailbreak attacks* aim to bypass the safeguards of LLMs.
 While researchers have studied different jailbreak attacks in depth, they have done so in isolation - either with unaligned experiment settings or comparing a limited range of methods.
 To fill this gap, we present the first large-scale measurement of various jailbreak attack methods. 
@@ -25,7 +25,7 @@ Results of our longitudinal test on continuously updated LLMs show good attack s
 Additionally, we test jailbreak attacks under four advanced external defenses and find none of the defenses could mitigate the jailbreak attacks entirely.
 We hope our study can provide insights for future research on jailbreak attacks and serve as a benchmark tool for researchers and practitioners to evaluate them.
 
-## Jailbreak Taxonomy
+# Jailbreak Taxonomy
 
 | Jailbreak Taxonomy |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |:------------------:|:-----------------------:|:-------------------------:|:------------------------------:|
@@ -44,21 +44,21 @@ We hope our study can provide insights for future research on jailbreak attacks 
 | Optimization-Based |        Masterkey        |             ✗             |                ✓               |
 |   Parameter-Based  | Generation Exploitation |             ✓             |                ✗               |
 
-## Unified Usage Policy
+# Unified Usage Policy
 
 here
 
-## Leaderboard
+# Leaderboard
 
 here
 
-## Ablation Study
+# Ablation Study
 
 here
 
-### Time
-### Token
+## Time
+## Token
 
-## Defenses
+# Defenses
 
 here
