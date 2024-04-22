@@ -71,6 +71,11 @@ table {
 #banner {
   background: #e0e0e0;
 }
+@media screen and (max-width: 650px) { /* 假设希望在宽度为600px及以下时按钮消失 */
+  .fork1, .fork2, .fork3 {
+    display: none;
+  }
+}
 // header h1 {
 //   font-weight: bold; 
 // }
