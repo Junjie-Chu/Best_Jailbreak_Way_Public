@@ -95,3 +95,8 @@ header {
 .links span, .links a {
     display: inline; /* 让span和a元素也行内显示 */
 }
+#example {
+    width: 95%; /* 设置表格宽度为父容器的100% */
+    max-width: 100%; /* 确保表格宽度不会超过父容器 */
+    box-sizing: border-box; /* 确保宽度包含了padding和border */
+}
