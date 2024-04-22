@@ -32,7 +32,7 @@ nav, footer {
   overflow: hidden; /* 或hidden，根据需要 */
 }
 #banner {
-  margin-right:-332px;
+  right: 25%;
   .fork1, .fork2, .fork3 {
     position: absolute;
     width: 135px; /* 或任何适合的宽度 */
