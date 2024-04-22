@@ -100,30 +100,33 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
 
 # Leaderboard
 
-<div class="scrollable-table">
-    <table id="sortable-table">
-        <thead>
-            <tr>
-                <th onclick="sortTable(0)">名称 ▲</th>
-                <th onclick="sortTable(1)">年龄</th>
-                <th onclick="sortTable(2)">职业</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>John Doe</td>
-                <td>30</td>
-                <td>Developer</td>
-            </tr>
-            <tr>
-                <td>John Doe</td>
-                <td>33</td>
-                <td>Developer</td>
-            </tr>
-            <!-- 添加更多的行数据 -->
-        </tbody>
-    </table>
-</div>
+<table id="example" class="display" style="width:100%">
+    <thead>
+        <tr>
+            <th>名称</th>
+            <th>年龄</th>
+            <th>职业</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>Developer 3</td>
+        </tr>
+        <tr>
+            <td>DJohn Doe</td>
+            <td>31</td>
+            <td>Developer 2</td>
+        </tr>
+        <tr>
+            <td>XJohn Doe</td>
+            <td>20</td>
+            <td>Developer 1</td>
+        </tr>
+        <!-- 你的其他行数据 -->
+    </tbody>
+</table>
 
 # Ablation Study
 
