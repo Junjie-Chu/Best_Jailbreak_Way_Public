@@ -8,29 +8,188 @@ layout: page
 Welcome to the leaderboard page.
 
 <table id="example" class="display" style="width:100%">
-    <thead>
+    <thead>    
         <tr>
-            <th>名称</th>
-            <th>年龄</th>
-            <th>职业</th>
+            <td>Jailbreak Method</td>
+            <td>Modify the Questions?</td>
+            <td>Access</td>
+            <td>ChatGLM3</td>
+            <td>Llama2-7b-chat-hf</td>
+            <td>Vicuna-7b-v1.5</td>
+            <td>GPT-3.5-turbo</td>
+            <td>GPT-4</td>
+            <td>PaLM2</td>
+            <td>Average</td>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>John Doe</td>
-            <td>30</td>
-            <td>Developer 3</td>
+            <td>AIM</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.93</td>
+            <td>0.13</td>
+            <td>0.99</td>
+            <td>0.99</td>
+            <td>0.62</td>
+            <td>0.88</td>
+            <td>0.76</td>
         </tr>
         <tr>
-            <td>DJohn Doe</td>
-            <td>31</td>
-            <td>Developer 2</td>
+            <td>Devmoderanti</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.79</td>
+            <td>0.14</td>
+            <td>0.91</td>
+            <td>0.73</td>
+            <td>0.08</td>
+            <td>0.61</td>
+            <td>0.54</td>
         </tr>
         <tr>
-            <td>XJohn Doe</td>
-            <td>20</td>
-            <td>Developer 1</td>
+            <td>Devmode v2</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.65</td>
+            <td>0.2</td>
+            <td>0.89</td>
+            <td>0.53</td>
+            <td>0.51</td>
+            <td>0.54</td>
+            <td>0.55</td>
         </tr>
-        <!-- 你的其他行数据 -->
+        <tr>
+            <td>Base64</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.02</td>
+            <td>0.11</td>
+            <td>0.15</td>
+            <td>0.14</td>
+            <td>0.49</td>
+            <td>0.01</td>
+            <td>0.15</td>
+        </tr>
+        <tr>
+            <td>Combination</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.09</td>
+            <td>0.06</td>
+            <td>0.12</td>
+            <td>0.31</td>
+            <td>0.74</td>
+            <td>0.04</td>
+            <td>0.23</td>
+        </tr>
+        <tr>
+            <td>Zulu</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.04</td>
+            <td>0.08</td>
+            <td>0.18</td>
+            <td>0.79</td>
+            <td>0.76</td>
+            <td>0.01</td>
+            <td>0.31</td>
+        </tr>
+        <tr>
+            <td>AutoDAN</td>
+            <td>✓</td>
+            <td>White-Box</td>
+            <td>0.9</td>
+            <td>0.58</td>
+            <td>0.98</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>0.82</td>
+        </tr>
+        <tr>
+            <td>GCG</td>
+            <td>✓</td>
+            <td>White-Box</td>
+            <td>0.44</td>
+            <td>0.56</td>
+            <td>0.87</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>0.62</td>
+        </tr>
+        <tr>
+            <td>COLD</td>
+            <td>✓</td>
+            <td>White-Box</td>
+            <td>0.5</td>
+            <td>0.45</td>
+            <td>0.42</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>0.46</td>
+        </tr>
+        <tr>
+            <td>GPTfuzz</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.88</td>
+            <td>0.41</td>
+            <td>0.79</td>
+            <td>0.85</td>
+            <td>0.41</td>
+            <td>0.48</td>
+            <td>0.64</td>
+        </tr>
+        <tr>
+            <td>PAIR</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.54</td>
+            <td>0.48</td>
+            <td>0.76</td>
+            <td>0.62</td>
+            <td>0.8</td>
+            <td>0.78</td>
+            <td>0.66</td>
+        </tr>
+        <tr>
+            <td>TAP</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.76</td>
+            <td>0.44</td>
+            <td>0.74</td>
+            <td>0.81</td>
+            <td>0.71</td>
+            <td>0.74</td>
+            <td>0.7</td>
+        </tr>
+        <tr>
+            <td>Masterkey</td>
+            <td>✓</td>
+            <td>Black-Box</td>
+            <td>0.82</td>
+            <td>0.11</td>
+            <td>0.88</td>
+            <td>0.9</td>
+            <td>0.54</td>
+            <td>0.76</td>
+            <td>0.67</td>
+        </tr>
+        <tr>
+            <td>Generation Exploitation</td>
+            <td>✗</td>
+            <td>White-Box</td>
+            <td>0.8</td>
+            <td>0.72</td>
+            <td>0.95</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>0.82</td>
+        </tr>
     </tbody>
 </table>
