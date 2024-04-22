@@ -27,6 +27,12 @@ We hope our study can provide insights for future research on jailbreak attacks 
 
 # Jailbreak Taxonomy
 
+We classify the methods based on the following two criteria:
+- We consider whether the original forbidden question is modified to bypass the target LLM's alignment mechanisms in the method.
+- If the original question is modified, we then consider how these modified prompts are generated in the method, such as through translation or adding prefixes and suffixes.
+
+* * *
+
 | Jailbreak Taxonomy |     Jailbreak Method    | Require White-Box Access? | Modify the Original Question?  |
 |:------------------:|:-----------------------:|:-------------------------:|:------------------------------:|
 |     Human-Based    |           AIM           |             ✗             |                ✓               |
@@ -46,7 +52,29 @@ We hope our study can provide insights for future research on jailbreak attacks 
 
 # Unified Usage Policy
 
-here
+We first collect the usage policies from five major LLM-related service providers (Google, OpenAI, Meta, Amazon, and Microsoft).
+Many policies tend to provide a general description by synthesizing many specific categories within an overarching category.
+Unlike the general ones, we summarize our unified policy by *explicit coverage* to find a clear common feature within the same category.
+
+|        Violation category       | OpenAI | Microsoft | Google | Amazon | Meta |
+|:-------------------------------:|:------:|:---------:|:------:|:------:|:----:|
+| Hate, Unfairness, or Harassment |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|        Malicious Software       |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|     Well-being Infringement     |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|          Physical Harm          |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|      Disinformation Spread      |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|          Privacy Breach         |    ✓   |     -     |    ✓   |    ✓   |   ✓  |
+|          Adult Content          |    ✓   |     ✓     |    ✓   |    -   |   ✓  |
+|       Political Activities      |    ✓   |     ✓     |    -   |    -   |   -  |
+|          Impersonation          |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|        Terrorist Content        |    -   |     ✓     |    ✓   |    ✓   |   ✓  |
+|      Unauthorized Practice      |    ✓   |     -     |    ✓   |    ✓   |   ✓  |
+|       Safety Filter Bypass      |    ✓   |     -     |    ✓   |    ✓   |   -  |
+|    Risky Government Decisions   |    ✓   |     -     |    ✓   |    -   |   -  |
+|       AI Usage Disclosure       |    ✓   |     -     |    -   |    -   |   ✓  |
+|   Third-party Rights Violation  |    -   |     ✓     |    -   |    ✓   |   ✓  |
+|        Illegal Activities       |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
+|    Crimes involving children    |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
 
 # Leaderboard
 
@@ -56,8 +84,10 @@ here
 
 here
 
-## Time
-## Token
+## Token Numbers
+## Time Efficiency
+## Transferability
+## Longitudinal Test
 
 # Defenses
 
