@@ -99,17 +99,3 @@ Unlike the general ones, we summarize our unified policy by *explicit coverage* 
 |        Illegal Activities       |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
 |    Crimes involving children    |    ✓   |     ✓     |    ✓   |    ✓   |   ✓  |
 
-# Leaderboard
-
-# Ablation Study
-
-here
-
-## Token Numbers
-## Time Efficiency
-## Transferability
-## Longitudinal Test
-
-# Defenses
-
-here
